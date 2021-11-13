@@ -25,4 +25,5 @@ const eqArrays = function(array1, array2) {
 };
 //assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 //assertEqual(eqArrays([6, 2, 3], [1, 2, 3]), true);
- eqArrays([1, 2], [1, 2]); //supposing the arrays to be of equal length
+eqArrays([1, 2], [1, 2]); //supposing the arrays to be of equal length
+eqArrays([1, 2], [1, 8]);
